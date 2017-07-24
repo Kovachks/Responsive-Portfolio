@@ -26,7 +26,7 @@ body {
 	background-color: #4aaaa5;
 	width: 270px;
 	color: white;
-	left: 160px;
+	left: 80px;
 	text-align: center;
 	top: 0%;
 }
@@ -38,7 +38,7 @@ body {
 .Nav {
 	position: absolute;
 	top: 35px;
-	left: 875px;
+	left: 700px;
 	float: left;
 	color: #4aaaa5;
 	z-index: 2;
@@ -71,10 +71,10 @@ body {
 }
 .about_me {
 	position: relative;
-	width: 650px;
+	width: 600px;
 	background-color: #ffffff;
 	top: 0px;
-	left: 160px;
+	left: 80px;
 	margin-top: 25px;
 	border: 1px solid #dddddd;
 	margin-bottom: 250px;
@@ -153,9 +153,9 @@ body {
 }
 #contact {
 	position: absolute;
-	width: 650px;
+	width: 600px;
 	background-color: #ffffff;
-	left: 160px;
+	left: 80px;
 	top: 125px;
 	border: 1px solid #dddddd;	
 	margin-bottom: 350px;
@@ -198,7 +198,7 @@ button:hover {
 .contact_connect {
 	position: absolute;
 	float: left;
-	left: 850px;
+	left: 700px;
 	top: 125px;
 	height: 200px;
 	width: 270px;
@@ -228,4 +228,68 @@ button:hover {
 .aref {
 	position: relative;
 	float: left;
+}
+
+@media only screen and (max-width: 980px) {
+	#profile_picture {
+		position: static;
+		width: 80%;
+		float: none;
+		padding: 0 10% 5% 10%;
+	}	
+	#about_me_text {
+		float: none;
+		position: relative;
+	}
+	.about_me {
+		width: 35%;
+	}
+	.contact_connect {
+		left: 50%;
+	}
+	.Nav {
+		left: 50%;
+	}
+	.Header {
+		width: 100%;
+	}
+	#contact {
+		width: 35%;
+	}
+	.button {
+		padding-right: 10%;
+		padding-left: 10%;
+		text-align: center;
+		max-width: 100%
+	}
+	textarea {
+		margin: 0 10%;
+	}
+	.aref {
+		width: 100%;
+	}
+	.portfolio img {
+		width: 90%;
+		margin: 5%;
+	}
+	.portfolio_image_text {
+		margin: 5%;
+		width:90%;
+		top: 60%;
+	}
+	.about_me {
+		position: relative;
+		overflow: auto;
+	}
+	#About_Header {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	
+}
+
+@media only screen and (max-width: 640px) {
+	
 }
