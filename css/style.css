@@ -285,25 +285,114 @@ button:hover {
 	}
 }
 
-@media only screen and (max-width: 768px) and (min-width: 600px) {
-	.about_me {
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+	body {
 		width: 100%;
-		margin: 0 2.5% 0 0;
+	}
+	.about_me {
+		width: 584px;
+		margin: 0 5% 0 0;
+		left: 2.5%;
 	}
 	.contact_connect{
 		position: static;
 		margin: 2.5% 0 0 80px;
-		width: 760px;
+		width: 587px;
 	}
 	.Header {
 		width: 100%;
 	}
 	.Name {
 		left: 2.5%;
-		width: 30%;
+		width: 225px;
+		font-size: 13px;
+		bottom: 0;
+	}
+	.contact_connect {
+		width: 586px;
+		position: static;
+		left: 2.5%;
+		margin: 5% 0 200px 2.5%;
+	}
+	.Nav {
+		position: absolute;
+		margin-left: 395px;
+		width: 210px;
+		left: 0;
+		margin
+	}
+	#Header_Name {
+		bottom: 0;
+		vertical-align: middle;
+		padding-top: 3.5%;
+	}
+	#contact {
+		position: relative;
+		top: 18px;
+		width: 584px;
+		margin: 0 5% 0 0;
+		left: 2.5%;
+	}
+	#About_Header {
+		margin: 25px 5% 24px 5%;
+		padding-top: 0;
 	}
 }
 
-@media only screen and (max-width: 640px) {
-	
+@media only screen and (max-width: 640px) and (min-width: 0px){
+	.Name {
+		width: 100%;
+		left: 0;
+	}
+	.Nav {
+		position: absolute;
+		width: 100%;
+		padding: 20px 0;
+		margin: 0 0 20px 0;
+		top: 80px;
+		left: 0;
+		background-color: white;
+		overflow: none;
+		}
+	#portfolio {
+		padding: 0 15%;
+		font-size: 3vw;
+	}
+	.about_contact {
+		padding: 0;
+		margin: 0 9%;
+		font-size: 3vw;
+	}
+	.about_me {
+		width: auto;
+		margin: 0 5%;
+		top: 60px;
+		left: 0;
+		overflow: auto;
+		}
+	.contact_connect {
+		position: relative;
+		top: 80px;
+		width: 90%;
+		margin: 2.5% 5% 150px;
+		left: 0;
+	}
+	#profile_picture {
+		width: 90%;
+		padding: 0 5% 15px 5%;
+	}
+	#About_Header {
+		margin: 25px 5% 24px 5%;
+		padding-top: 0;
+	}
+	.portfolio {
+		width: 200px%
+	}
+	#contact {
+		position: relative;
+		left: 0;
+		margin: 0 5%;
+		top: 80px;
+		width: 90%;
+	}
 }
